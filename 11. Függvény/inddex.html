@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+      function susd() {
+        console.log('Önts olajat hozzá')
+        console.log('Adj hozzá 3 tojást')
+        console.log('Adj hozzá fűszereket')
+        console.log('Süsd 4 percig')
+        console.log('Kész')
+        
+      }  
+
+      function adj(){
+        console.log('sót')
+        console.log('borsot')
+        console.log('paprikát')
+
+      }
+
+      function addone(szam){
+        return szam + 1
+
+      }
+    
+    susd()
+    console.log("-------")
+    susd()
+    console.log("-------")
+    susd()
+    console.log("-------")
+    console.log(addone(5))
+    console.log(addone(addone(addone(5))))
+
+      function addtwo(szam){
+        return{
+            0:2,
+            1:3,
+            2:4,
+        }[szam];
+      }
+      console.log(addtwo(addtwo(0)));
+
+
+
+      console.log(addthree(4))
+      var addthree = function(szam){
+        return szam + 3;
+      };
+
+
+     
+
+
+
+    </script>
+</body>
+</html>
